@@ -4,10 +4,10 @@
 
 set -e
 
-echo 
-echo "Installing prerequisites"
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release net-tools software-properties-common -y
+#echo
+#echo "Installing prerequisites"
+#sudo apt update
+#sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release net-tools software-properties-common -y
 
 echo 
 echo "Installing kubectl, kubeadm, kubelet"
