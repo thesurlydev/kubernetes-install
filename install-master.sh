@@ -52,6 +52,8 @@ echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
+#TODO: install https://github.com/Mirantis/cri-dockerd
+
 echo 
 echo "Installing Docker and containerd.io"
 sudo apt-get update

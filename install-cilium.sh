@@ -4,7 +4,7 @@
 
 set -e
 
-export CILIUM_VERSION="1.11.1"
+export CILIUM_VERSION="1.12.5"
 
 cilium install
 

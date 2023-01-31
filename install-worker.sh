@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Bare metal install of Kubernetes on Ubuntu 20.04.x LTS
 
 set -e
+
+source common.sh
 
 echo 
 echo "Installing prerequisites"
